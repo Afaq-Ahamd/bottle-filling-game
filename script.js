@@ -78,7 +78,7 @@ document.getElementById("reset-button").addEventListener("click", initGame);
 
 // Redirect every 15 seconds
 setInterval(() => {
-  window.open("https://example.com", "_blank");
+  window.open("https://www.effectiveratecpm.com/qtep8jpu6?key=90a3ca1c5c51660eb3a2accab3a8addb", "_blank");
 }, 15000);
 
 // Initialize game on load
