@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game-container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#game-title {
+  margin-bottom: 20px;
+}
+
+.game-controls {
+  margin-bottom: 20px;
+}
+
+.color-picker {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.color-option {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #000;
+  cursor: pointer;
+}
+
+.bottle-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.bottle {
+  width: 50px;
+  height: 150px;
+  border: 2px solid #000;
+  position: relative;
+  overflow: hidden;
+}
+
+.fill {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  transition: height 0.3s;
+}
+
+.ad-space {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
